@@ -7,9 +7,8 @@ resources:
     - "headshot.jpg"
 ---
 ::: {.column-page-inset-left}
-![](headshot.jpg){.rounded .intro-pic width=180}
+![](headshot.jpg){.rounded .intro-pic width=300}
 I am a final-year PhD student studying Artificial Intelligence at Stanford.
-
 My advisor is [Scott Linderman](https://lindermanlab.github.io/).
 
 My thesis research focuses on developing and studying methods to **parallelize any sequential process**---well, any discrete-time Markov (stateful) process. 
@@ -28,7 +27,7 @@ I am particularly interested in:
 - developing hardware-aware AI algorithms, and novel hardware that can unlock novel AI algorithms
 - applying AI to education technology
 
-I'm actively looking for research jobs, so reach out if you know of a good fit!
+I'm actively looking for research jobs, so please reach out if you know of a good fit!
 :::
 
 {{< pagebreak >}}
