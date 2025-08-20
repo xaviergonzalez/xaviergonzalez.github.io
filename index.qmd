@@ -6,35 +6,29 @@ image: /headshot.jpg
 resources:
     - "headshot.jpg"
 ---
-
 ::: {.column-page-inset-left}
-I am a final year PhD student studying Artificial Intelligence at Stanford.
+![](headshot.jpg){.rounded .intro-pic width=180}
+I am a final-year PhD student studying Artificial Intelligence at Stanford.
 
 My advisor is [Scott Linderman](https://lindermanlab.github.io/).
 
-My thesis research focuses on developing and studying methods to parallelize *any* sequential process---well, that is, any discrete-time Markov or stateful process. 
+My thesis research focuses on developing and studying methods to **parallelize any sequential process**---well, any discrete-time Markov (stateful) process. 
 
 Examples include processes previously believed to be inherently sequential, like the evaluation of nonlinear recurrent neural networks (RNNs).
 
-This ability to parallelize over the sequence length may seem like time travel or magic, but it is just an elegant application of Newton's method! I have proved under what conditions such parallelization techniques can yield dramatic speed-ups over sequential evaluation, and developed scalable and stable parallelization techniques. I call these parallelization techniques the *ungulates*---large hooved mammmals like DEER and ELK.
-
-Artificial intellingence---and numerical computing broadly---are filled with sequential processes that are ripe for parallelizaton! So, please do reach out if you want to develop an ungulate method for your domain of interest!
+This ability to parallelize over the sequence length may seem like time travel or magic, but it is just an elegant application of Newton's method! I have proved under what conditions such parallelization techniques can yield dramatic speed-ups over sequential evaluation, and developed scalable and stable parallelization techniques. I call these parallelization techniques *the [ungulates](https://colab.research.google.com/github/lindermanlab/hackathons/blob/master/notebooks/elk.ipynb)*---large hoofed mammals like [DEER](https://arxiv.org/abs/2309.12252) and [ELK](https://arxiv.org/abs/2407.19115). We are hard at work improving the ungulates and applying them to other domains!
 
 ------
 
 Going forward, I am extremely interested in the quest to develop artificial general intelligence (AGI), and more broadly the study of intelligence---both natural and artificial.
 
-I am particularly interested by:
-* developing recurrent (transformer alternative) architectures that can more natively reason
-* developing hardware-aware AI algorithms, and novel hardware that can unlock novel AI algorithms
-* applying AI to education technology
+I am particularly interested in:
 
-I'm actively looking for research jobs, so please reach out if you know of a good fit!
+- developing recurrent (transformer alternative) architectures that can more natively reason
+- developing hardware-aware AI algorithms, and novel hardware that can unlock novel AI algorithms
+- applying AI to education technology
 
-
-:::
-::: {.column-margin}
-![](headshot.jpg){.rounded}
+I'm actively looking for research jobs, so reach out if you know of a good fit!
 :::
 
 {{< pagebreak >}}
@@ -53,8 +47,11 @@ I'm actively looking for research jobs, so please reach out if you know of a goo
     <i class="bi bi-linkedin" role='img' aria-label='LinkedIn'></i>
 </a>
 
-<a class="btn btn-outline-dark", href="https://scholar.google.com/citations?user=5sj7cH8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-    <i class="ai ai-google-scholar" role='img' aria-label='Google Scholar'></i>
+<a class="btn btn-outline-dark" href="https://scholar.google.com/citations?user=5sj7cH8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+  <img src="assets/icons/google-scholar.svg" alt="Google Scholar"
+       style="height:1.1em; vertical-align:-0.125em;">
 </a>
+
+
 ```
 :::

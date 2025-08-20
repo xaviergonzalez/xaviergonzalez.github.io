@@ -1,1 +1,9 @@
 /* css styles */
+
+.intro-pic {
+    float: right;
+    /* push image to the right */
+    margin: -60px 0 0.25rem 0.25rem;
+    /* space below + space on left side */
+    display: block;
+}

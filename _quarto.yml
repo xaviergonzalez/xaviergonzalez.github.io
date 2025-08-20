@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "xg_website"
+  title: "Xavier Gonzalez"
   navbar:
     left:
       - href: index.qmd
@@ -17,6 +17,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
