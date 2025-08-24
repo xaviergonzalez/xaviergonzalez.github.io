@@ -2,12 +2,12 @@
 title: "Xavier Gonzalez"
 description: "Parallelizing Dynamical Systems in Artificial Intelligence"
 page-layout: full
-image: /headshot.jpg
+image: /crop.png
 resources:
-    - "headshot.jpg"
+    - "crop.png"
 ---
 ::: {.column-page-inset-left}
-![](headshot.jpg){.rounded .intro-pic width=300}
+![](crop.png){.rounded .intro-pic width=300}
 I am a final-year PhD student studying Artificial Intelligence at Stanford.
 My advisor is [Scott Linderman](https://lindermanlab.github.io/).
 
