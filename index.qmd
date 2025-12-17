@@ -2,9 +2,9 @@
 title: "Xavier Gonzalez"
 description: "Parallelizing Dynamical Systems in Artificial Intelligence"
 page-layout: full
-image: /crop.png
+image: /sequential_vs_parallel.gif
 resources:
-    - "crop.png"
+    - "sequential_vs_parallel.gif"
 ---
 ::: {.column-page-inset-left}
 ![](sequential_vs_parallel.gif){.rounded .intro-pic width=300}
