@@ -18,13 +18,13 @@
     "href": "talks.html#long-talks",
     "title": "Talks",
     "section": "Long talks",
-    "text": "Long talks\nHere is an hour long talk I gave at the ASAP seminar with my collaborator Leo Kozachkov on parallelizing “inherently sequential” processes.\nTalk link. Date: 9/30/25"
+    "text": "Long talks\nHere is an hour-long talk I gave at the with my collaborator Leo Kozachkov on parallelizing “inherently sequential” processes.\nTalk link. Date: 9/30/25"
   },
   {
     "objectID": "talks.html#lightning-talks",
     "href": "talks.html#lightning-talks",
     "title": "Talks",
     "section": "Lightning talks",
-    "text": "Lightning talks\nHere are two 5 minute talks about my NeurIPS papers: * Towards Scalable and Stable Parallelization of Nonlinear RNNs. NeurIPS ’24. * Predictability Enables Parallelization of Nonlinear SSMs) NeurIPS ’25."
+    "text": "Lightning talks\nHere are two 5 minute talks about my NeurIPS papers:\n\nTowards Scalable and Stable Parallelization of Nonlinear RNNs. NeurIPS ’24.\nPredictability Enables Parallelization of Nonlinear SSMs) NeurIPS ’25."
   }
 ]
