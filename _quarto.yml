@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "sequential_vs_parallel.gif"
 
 website:
   title: "Xavier Gonzalez"
