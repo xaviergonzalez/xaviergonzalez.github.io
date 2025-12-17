@@ -7,7 +7,7 @@ resources:
     - "sequential_vs_parallel.gif"
 ---
 ::: {.column-page-inset-left}
-![](sequential_vs_parallel.gif){.rounded .intro-pic width=450}
+![](sequential_vs_parallel.gif){.rounded .intro-pic width="100%"}
 I am a final-year PhD student studying Artificial Intelligence at Stanford.
 My advisor is [Scott Linderman](https://lindermanlab.github.io/).
 
