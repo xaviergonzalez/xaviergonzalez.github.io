@@ -2,6 +2,8 @@
 title: "Talks"
 ---
 
+![](neurips25_crop.jpeg){width=50%}
+
 I love giving research talks. Please reach out if you would like me to speak at your research seminar or colloqium!
 
 ## Long talks
