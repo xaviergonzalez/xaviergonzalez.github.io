@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Talks – Xavier Gonzalez</title>
+<title>Blog – Xavier Gonzalez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -94,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./talks.html" aria-current="page"> 
+    <a class="nav-link" href="./talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -117,8 +146,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#long-talks" id="toc-long-talks" class="nav-link active" data-scroll-target="#long-talks">Long talks</a></li>
-  <li><a href="#lightning-talks" id="toc-lightning-talks" class="nav-link" data-scroll-target="#lightning-talks">Lightning talks</a></li>
+  <li><a href="#parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk" id="toc-parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk" class="nav-link active" data-scroll-target="#parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk">Parallelizing Nonlinear RNNs with the Ungulates: DEER and ELK</a></li>
+  <li><a href="#a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems" id="toc-a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems" class="nav-link" data-scroll-target="#a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems">A Unifying Framework for Parallelizing Sequential Models with Linear Dynamical Systems</a></li>
   </ul>
 </nav>
     </div>
@@ -127,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Talks</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -144,20 +173,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="neurips25_crop.jpeg" class="img-fluid" style="width:50.0%"></p>
-<p>I love giving research talks. Please reach out if you would like me to speak at your research seminar or colloqium!</p>
-<section id="long-talks" class="level2">
-<h2 class="anchored" data-anchor-id="long-talks">Long talks</h2>
-<p>Here is an hour-long talk I gave at the with my collaborator Leo Kozachkov on parallelizing “inherently sequential” processes.</p>
-<p><strong><a href="https://www.youtube.com/watch?v=C9AqgW51-B4">Talk link. Date: 9/30/25</a></strong></p>
+<section id="parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk" class="level2">
+<h2 class="anchored" data-anchor-id="parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk"><a href="https://colab.research.google.com/github/lindermanlab/hackathons/blob/master/notebooks/elk.ipynb">Parallelizing Nonlinear RNNs with the Ungulates: DEER and ELK</a></h2>
+<p>This blog post is a colab notebook that shows how we can use parallel Newton methods (DEER) and parallel trust region methods (ELK) to parallelize nonlinear RNNs. This blog is a simple exposition of these parallel Newton methods that doubles as quick-start guide for our <a href="https://github.com/lindermanlab/elk">codebase</a>!</p>
 </section>
-<section id="lightning-talks" class="level2">
-<h2 class="anchored" data-anchor-id="lightning-talks">Lightning talks</h2>
-<p>Here are two 5-minute talks about my NeurIPS papers:</p>
-<ul>
-<li><a href="https://slideslive.com/39027951/towards-scalable-and-stable-parallelization-of-nonlinear-rnns">Towards Scalable and Stable Parallelization of Nonlinear RNNs</a>. NeurIPS ’24.</li>
-<li><a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119734">Predictability Enables Parallelization of Nonlinear SSMs</a>. NeurIPS ’25.</li>
-</ul>
+<section id="a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems" class="level2">
+<h2 class="anchored" data-anchor-id="a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems"><a href="https://www.arxiv.org/abs/2509.21716">A Unifying Framework for Parallelizing Sequential Models with Linear Dynamical Systems</a></h2>
+<p>This publication is not a blog post, but it serves as a gentle introduction to a variety of fixed-point methods—Newton, Picard, and Jacobi—that have been used to parallelize a variety of state space models—including <a href="https://arxiv.org/abs/2407.19115">RNNs</a>, <a href="https://arxiv.org/abs/2508.18413">MCMC</a>, sampling from <a href="https://arxiv.org/abs/2305.16317">diffusion models</a>, and more!</p>
+<p>Also worth checking out is Appendix B, which serves as a gentle and user-friendly introduction to the powerful “parallel scan” algorithm. The parallel scan algorithm lets us multiply a sequence of <span class="math inline">\(T\)</span> matrices together in <span class="math inline">\(\mathcal{O}(\log T)\)</span> computational depth. The parallel scan is what is used to parallelize deep SSMs like <a href="https://arxiv.org/abs/2208.04933">S5</a> and <a href="https://arxiv.org/abs/2312.00752">Mamba</a>. It is also a core ingredient of the parallel Newton methods for <a href="https://arxiv.org/abs/2407.19115">parallelizing nonlinear RNNs</a>.</p>
+<p><img src="pscan.png" class="img-fluid"></p>
 
 
 </section>

@@ -14,7 +14,7 @@ Here is an hour-long talk I gave at the with my collaborator Leo Kozachkov on pa
 
 ## Lightning talks
 
-Here are two 5 minute talks about my NeurIPS papers:
+Here are two 5-minute talks about my NeurIPS papers:
 
 * [Towards Scalable and Stable Parallelization of Nonlinear RNNs](https://slideslive.com/39027951/towards-scalable-and-stable-parallelization-of-nonlinear-rnns). NeurIPS '24.
 * [Predictability Enables Parallelization of Nonlinear SSMs](https://neurips.cc/virtual/2025/loc/san-diego/poster/119734). NeurIPS '25.
