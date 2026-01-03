@@ -12,6 +12,10 @@ Here is an hour-long talk I gave at the with my collaborator Leo Kozachkov on pa
 
 **[Talk link. Date: 9/30/25](https://www.youtube.com/watch?v=C9AqgW51-B4)**
 
+## Poster Talks
+
+* 14-min video of my poster presentation of [Predictability Enables Parallelization of Nonlinear SSMs](https://www.youtube.com/watch?v=SVTz4aTIcPs&t=4s) at NeurIPS '25'
+
 ## Lightning talks
 
 Here are two 5-minute talks about my NeurIPS papers:

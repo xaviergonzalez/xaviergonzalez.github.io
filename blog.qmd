@@ -1,0 +1,15 @@
+---
+title: "Blog"
+---
+
+## [Parallelizing Nonlinear RNNs with the Ungulates: DEER and ELK](https://colab.research.google.com/github/lindermanlab/hackathons/blob/master/notebooks/elk.ipynb)
+
+This blog post is a colab notebook that shows how we can use parallel Newton methods (DEER) and parallel trust region methods (ELK) to parallelize nonlinear RNNs. This blog is a simple exposition of these parallel Newton methods that doubles as quick-start guide for our [codebase](https://github.com/lindermanlab/elk)!
+
+## [A Unifying Framework for Parallelizing Sequential Models with Linear Dynamical Systems](https://www.arxiv.org/abs/2509.21716)
+
+This publication is not a blog post, but it serves as a gentle introduction to a variety of fixed-point methods---Newton, Picard, and Jacobi---that have been used to parallelize a variety of state space models---including [RNNs](https://arxiv.org/abs/2407.19115), [MCMC](https://arxiv.org/abs/2508.18413), sampling from [diffusion models](https://arxiv.org/abs/2305.16317), and more!
+
+Also worth checking out is Appendix B, which serves as a gentle and user-friendly introduction to the powerful "parallel scan" algorithm. The **parallel scan** algorithm lets us multiply a sequence of $T$ matrices together in $\mathcal{O}(\log T)$ computational depth. The parallel scan is what is used to parallelize deep SSMs like [S5](https://arxiv.org/abs/2208.04933) and [Mamba](https://arxiv.org/abs/2312.00752). It is also a core ingredient of the parallel Newton methods for parallelizing [nonlinear RNNs](https://arxiv.org/abs/2407.19115) and [MCMC](https://arxiv.org/abs/2508.18413).
+
+![](pscan.png)
