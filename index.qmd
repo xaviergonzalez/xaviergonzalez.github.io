@@ -21,7 +21,7 @@ Going forward, I am extremely interested in the quest to develop artificial gene
 
 I am particularly interested in:
 
-- developing recurrent (transformer alternative) architectures that can more natively reason
+- developing recurrent architectures that can more natively reason
 - developing hardware-aware AI algorithms, and novel hardware that can unlock novel AI algorithms
 - drawing inspiration from natural intelligence, and designing and scaling up neuro-inspired algorithms and hardware
 - applying AI to education technology to improve education and mentorship for the next generation
