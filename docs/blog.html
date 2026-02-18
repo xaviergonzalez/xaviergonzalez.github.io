@@ -173,13 +173,14 @@ window.Quarto = {
 </header>
 
 
+<p><embed src="newton_brr.pdf" class="img-fluid" style="width:50.0%"></p>
 <section id="parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk" class="level2">
 <h2 class="anchored" data-anchor-id="parallelizing-nonlinear-rnns-with-the-ungulates-deer-and-elk"><a href="https://colab.research.google.com/github/lindermanlab/hackathons/blob/master/notebooks/elk.ipynb">Parallelizing Nonlinear RNNs with the Ungulates: DEER and ELK</a></h2>
 <p>This blog post is a colab notebook that shows how we can use parallel Newton methods (DEER) and parallel trust region methods (ELK) to parallelize nonlinear RNNs. This blog is a simple exposition of these parallel Newton methods that doubles as quick-start guide for our <a href="https://github.com/lindermanlab/elk">codebase</a>!</p>
 </section>
 <section id="a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems" class="level2">
 <h2 class="anchored" data-anchor-id="a-unifying-framework-for-parallelizing-sequential-models-with-linear-dynamical-systems"><a href="https://www.arxiv.org/abs/2509.21716">A Unifying Framework for Parallelizing Sequential Models with Linear Dynamical Systems</a></h2>
-<p>This publication is not a blog post, but it serves as a gentle introduction to a variety of fixed-point methods—Newton, Picard, and Jacobi—that have been used to parallelize a variety of state space models—including <a href="https://arxiv.org/abs/2407.19115">RNNs</a>, <a href="https://arxiv.org/abs/2508.18413">MCMC</a>, sampling from <a href="https://arxiv.org/abs/2305.16317">diffusion models</a>, and more!</p>
+<p>This research paper is not a blog post, but it serves as a gentle introduction to a variety of fixed-point methods—Newton, Picard, and Jacobi—that have been used to parallelize a variety of state space models—including <a href="https://arxiv.org/abs/2407.19115">RNNs</a>, <a href="https://arxiv.org/abs/2508.18413">MCMC</a>, sampling from <a href="https://arxiv.org/abs/2305.16317">diffusion models</a>, and more!</p>
 <p>Also worth checking out is Appendix B, which serves as a gentle and user-friendly introduction to the powerful “parallel scan” algorithm. The <strong>parallel scan</strong> algorithm lets us multiply a sequence of <span class="math inline">\(T\)</span> matrices together in <span class="math inline">\(\mathcal{O}(\log T)\)</span> computational depth. The parallel scan is what is used to parallelize deep SSMs like <a href="https://arxiv.org/abs/2208.04933">S5</a> and <a href="https://arxiv.org/abs/2312.00752">Mamba</a>. It is also a core ingredient of the parallel Newton methods for parallelizing <a href="https://arxiv.org/abs/2407.19115">nonlinear RNNs</a> and <a href="https://arxiv.org/abs/2508.18413">MCMC</a>.</p>
 <p><img src="pscan.png" class="img-fluid"></p>
 
