@@ -26,7 +26,7 @@ I am particularly interested in:
 - drawing inspiration from natural intelligence, and designing and scaling up neuro-inspired algorithms and hardware
 - applying AI to education technology to improve education and mentorship for the next generation
 
-**I'm actively looking for research jobs**, so please reach out if you know of a good fit!
+**I will shortly join the technical staff at [Unconventional AI](https://unconv.ai/)**. At Unconventional, we are trying to build the next generation of AI hardware and algorithms to be 1000x more energy efficient than current workflows. [Join us](https://unconv.ai/careers/) if you are interested in tackling this pressing problem with deep and fundamental research!
 
 See my publications on my [Google Scholar page](https://scholar.google.com/citations?user=5sj7cH8AAAAJ&hl=en).
 :::
