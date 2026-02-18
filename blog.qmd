@@ -2,7 +2,7 @@
 title: "Blog"
 ---
 
-![](newton_brr.png){width=50%}
+![](newton_brr.jpg){width=50%}
 
 ## [Parallelizing Nonlinear RNNs with the Ungulates: DEER and ELK](https://colab.research.google.com/github/lindermanlab/hackathons/blob/master/notebooks/elk.ipynb)
 
