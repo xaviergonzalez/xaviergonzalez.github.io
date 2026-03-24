@@ -8,9 +8,9 @@ I love giving research talks. Please reach out if you would like me to speak at 
 
 ## Long talks
 
-**My thesis defense.** This hour long talk summarizes the research I did during my PhD: "Unifying Optimization and Dynamics to Parallelize Inherently Sequential Processes: A Guide to Parallel Newton Methods."
+**My thesis defense.** This hour long talk summarizes the research I did during my PhD: "Unifying Optimization and Dynamics to Parallelize Sequential Computation"
 
-**[Talk link. Date: 2/26/26](https://www.youtube.com/watch?v=XoWxYD8zNHU)**
+**[Talk link. Date: 2/26/26](https://www.youtube.com/watch?v=c0lo9Mao5Xo&t=28s)**
 
 Here is an hour-long talk I gave at the with my collaborator Leo Kozachkov on parallelizing "inherently sequential" processes.
 
