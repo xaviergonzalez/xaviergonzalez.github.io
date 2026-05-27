@@ -8,8 +8,23 @@ resources:
 ---
 ::: {.column-page-inset-left}
 ![](sequential_vs_parallel.gif){.rounded .intro-pic width="100%"}
-I am a graduating PhD student studying Artificial Intelligence at Stanford.
-My advisor is [Scott Linderman](https://lindermanlab.github.io/).
+
+I am an AI researcher at [Unconventional AI](https://unconv.ai/)**. At Unconventional, we are trying to build the next generation of AI hardware and algorithms to be 1000x more energy efficient than current workflows. [Join us](https://unconv.ai/careers/) if you are interested in tackling this pressing problem with deep and fundamental research!
+
+I am excited about the quest to develop artificial general intelligence (AGI), and more broadly the study of intelligence---both natural and artificial.
+
+I am particularly interested in:
+
+- developing recurrent architectures that can more natively reason
+- developing hardware-aware AI algorithms, and novel hardware that can unlock novel AI algorithms
+- drawing inspiration from natural intelligence, and designing and scaling up neuro-inspired algorithms and hardware
+- applying AI to education technology to improve education and mentorship for the next generation
+
+------
+
+I graduated from my PhD at Stanford in March 2026.
+My advisor was [Scott Linderman](https://lindermanlab.github.io/).
+My thesis was awarded the Ingram Olkin interdiscplinary dissertation award.
 
 My PhD research focused on developing and studying methods to **parallelize processes previously believed to be "inherently sequential."** Examples include recurrent neural networks ([RNNs](https://www.alphaxiv.org/abs/2407.19115)) and Markov chain Monte Carlo ([MCMC](https://alphaxiv.org/abs/2508.18413)). My work has helped to break the sequential bottlenecks these important AI methods used to suffer from.
 
@@ -21,20 +36,7 @@ My PhD Disssertation serves as an intro, quick-start guide that I recommend if y
 - [Text of Dissertion](https://arxiv.org/abs/2603.16850)
 - [Quick-start code (jupyter notebook)](https://github.com/lindermanlab/micro_deer/blob/main/nbs/demo.ipynb)
 
-------
-
-Going forward, I am excited about the quest to develop artificial general intelligence (AGI), and more broadly the study of intelligence---both natural and artificial.
-
-I am particularly interested in:
-
-- developing recurrent architectures that can more natively reason
-- developing hardware-aware AI algorithms, and novel hardware that can unlock novel AI algorithms
-- drawing inspiration from natural intelligence, and designing and scaling up neuro-inspired algorithms and hardware
-- applying AI to education technology to improve education and mentorship for the next generation
-
-**I will shortly join the technical staff at [Unconventional AI](https://unconv.ai/)**. At Unconventional, we are trying to build the next generation of AI hardware and algorithms to be 1000x more energy efficient than current workflows. [Join us](https://unconv.ai/careers/) if you are interested in tackling this pressing problem with deep and fundamental research!
-
-See my publications on my [Google Scholar page](https://scholar.google.com/citations?user=5sj7cH8AAAAJ&hl=en).
+If you are interested in learning more, see my publications on my [Google Scholar page](https://scholar.google.com/citations?user=5sj7cH8AAAAJ&hl=en).
 :::
 
 {{< pagebreak >}}
