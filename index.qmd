@@ -9,7 +9,7 @@ resources:
 ::: {.column-page-inset-left}
 ![](sequential_vs_parallel.gif){.rounded .intro-pic width="100%"}
 
-I'm an AI researcher at [Unconventional AI](https://unconv.ai/)**. At Unconventional, we are trying to build the next generation of AI hardware and algorithms to be 1000x more energy efficient than current workflows. [Join us](https://unconv.ai/careers/) if you are interested in tackling this pressing problem with deep and fundamental research!
+I'm an AI researcher at [Unconventional AI](https://unconv.ai/). We are building the next generation of AI hardware and algorithms to be 1000x more energy efficient than current workflows. [Join us](https://unconv.ai/careers/) if you are interested in tackling this pressing problem with deep and fundamental research!
 
 I am excited about the quest to develop artificial general intelligence (AGI), and more broadly the study of intelligence---both natural and artificial.
 
