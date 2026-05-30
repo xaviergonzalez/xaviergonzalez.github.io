@@ -24,7 +24,7 @@ My interests include:
 
 I graduated from my PhD at Stanford in March 2026.
 My advisor was [Scott Linderman](https://lindermanlab.github.io/).
-My thesis was awarded the Ingram Olkin interdiscplinary dissertation award.
+My [thesis](https://www.youtube.com/watch?v=c0lo9Mao5Xo&t=28s) was awarded the Ingram Olkin interdisciplinary dissertation award.
 
 My PhD research focused on developing and studying methods to **parallelize processes previously believed to be "inherently sequential."** Examples include recurrent neural networks ([RNNs](https://www.alphaxiv.org/abs/2407.19115)) and Markov chain Monte Carlo ([MCMC](https://alphaxiv.org/abs/2508.18413)). My work has helped to break the sequential bottlenecks these important AI methods used to suffer from.
 
