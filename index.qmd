@@ -42,7 +42,7 @@ My PhD research focused on developing and studying methods to **parallelize proc
 
 This ability to parallelize over the sequence length may seem like time travel or magic, but it is just an elegant application of Newton's method! I have proved under what conditions such parallelization techniques can yield dramatic speed-ups on GPUs over sequential evaluation, and developed scalable and stable parallelization techniques. I call these parallelization techniques *the [ungulates](https://colab.research.google.com/github/lindermanlab/hackathons/blob/master/notebooks/elk.ipynb)*---large hoofed mammals like [DEER](https://alphaxiv.org/abs/2309.12252) and [ELK](https://alphaxiv.org/abs/2407.19115).
 
-My PhD Disssertation serves as an intro, quick-start guide that I recommend if you want to quickly learn what paralellizing sequential computation is all about!
+My PhD Disssertation serves as an intro, quick-start guide that I recommend if you want to quickly learn what parallelizing sequential computation is all about!
 
 - [Video of Defense](https://www.youtube.com/watch?v=c0lo9Mao5Xo&t=28s)
 - [Text of Dissertion](https://arxiv.org/abs/2603.16850)
