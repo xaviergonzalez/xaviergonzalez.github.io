@@ -73,6 +73,11 @@ If you are interested in learning more, see my publications on my [Google Schola
     <i class="bi bi-github" role='img' aria-label='Github'></i>
 </a>
 
+<a class="btn btn-outline-dark" href="https://www.alphaxiv.org/@xavier-gonzalez" target="_blank" rel="noopener noreferrer">
+  <img src="assets/icons/alphaxiv.svg" alt="alphaxiv"
+       style="height:1.1em; vertical-align:-0.125em;">
+</a>
+
 
 
 
